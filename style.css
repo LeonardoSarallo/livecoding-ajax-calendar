@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+  height: 700px;
+
+}
+
+.template {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#prev, #next {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+li.active {
+  color: red;
+}
